@@ -133,31 +133,52 @@
         </section>
 
         <!-- Services Section -->
-        <section class="section glass" id="sluzby" style="background: var(--bg-white); border-radius: 0;">
+        <section class="section services-section" id="sluzby">
+            <div class="bg-decoration">
+                <div class="blob blob-1"></div>
+                <div class="blob blob-2"></div>
+            </div>
+
             <div class="container">
                 <div class="section-header">
                     <span class="section-subtitle">Naše Služby</span>
                     <h2>Jak vám můžeme pomoci růst</h2>
+                    <p class="section-description">Propojujeme design, technologii a marketing do jednoho fungujícího
+                        celku.</p>
                 </div>
 
-                <div class="services-grid">
-                    <div class="service-item">
-                        <div class="card-icon">💻</div>
-                        <h3>Web, který vás reprezentuje</h3>
-                        <p>Dáváme vašemu podnikání profesionální tvář. Stavíme moderní a svižné weby, které si díky
-                            jednoduchému ovládání zvládnete sami spravovat.</p>
+                <div class="services-wrapper">
+                    <div class="services-grid">
+                        <div class="service-card glass">
+                            <div class="service-icon">
+                                <img src="Web Tvorime spoluweby/Obrazky/Web.svg" alt="Web Design">
+                            </div>
+                            <h3>Web, který vás reprezentuje</h3>
+                            <p>Dáváme vašemu podnikání profesionální tvář. Stavíme moderní a svižné weby, které si díky
+                                jednoduchému ovládání zvládnete sami spravovat.</p>
+                        </div>
+
+                        <div class="service-card glass">
+                            <div class="service-icon">
+                                <img src="Web Tvorime spoluweby/Obrazky/Meta.svg" alt="Meta Reklama">
+                            </div>
+                            <h3>Růst a Meta reklama</h3>
+                            <p>Nenechte svůj nový web zapadnout prachem. Postaráme se o to, aby ho lidé našli. Nastavíme
+                                výkonné reklamy, které nosí výsledky.</p>
+                        </div>
+
+                        <div class="service-card glass">
+                            <div class="service-icon">
+                                <img src="Web Tvorime spoluweby/Obrazky/Auto.svg" alt="Automatizace">
+                            </div>
+                            <h3>Automatizace a propojení</h3>
+                            <p>Web není jen obrázek, je to váš nejlepší zaměstnanec. Propojíme ho s mailingovými
+                                nástroji a analytikou, aby pracoval za vás.</p>
+                        </div>
                     </div>
-                    <div class="service-item">
-                        <div class="card-icon">🔄</div>
-                        <h3>Automatizace a propojení</h3>
-                        <p>Web není jen obrázek, je to váš nejlepší zaměstnanec. Propojíme ho s mailingovými nástroji a
-                            analytikou.</p>
-                    </div>
-                    <div class="service-item">
-                        <div class="card-icon">📈</div>
-                        <h3>Růst a Meta reklama</h3>
-                        <p>Nenechte svůj nový web zapadnout prachem. Postaráme se o to, aby ho lidé našli. Nastavíme
-                            výkonné reklamy.</p>
+
+                    <div class="services-footer">
+                        <a href="#kontakt" class="btn btn-primary">Chci vědět víc o spolupráci</a>
                     </div>
                 </div>
             </div>
@@ -165,6 +186,10 @@
 
         <!-- Process Section -->
         <section class="section">
+            <div class="bg-decoration">
+                <div class="blob blob-1" style="opacity: 0.05; width: 400px; height: 400px;"></div>
+                <div class="blob blob-2" style="opacity: 0.05; width: 300px; height: 300px; bottom: 0; left: 0;"></div>
+            </div>
             <div class="container">
                 <div class="section-header">
                     <span class="section-subtitle">Proces</span>
@@ -172,8 +197,8 @@
                 </div>
 
                 <div class="process-timeline">
-                    <!-- Steps will be added here with cool styling -->
-                    <div class="process-step glass">
+                    <!-- Steps with data-step for CSS background numbers -->
+                    <div class="process-step glass" data-step="01">
                         <div class="step-number">1</div>
                         <div class="step-content">
                             <h3>Společná Vize</h3>
@@ -181,7 +206,7 @@
                                 pohled.</p>
                         </div>
                     </div>
-                    <div class="process-step glass">
+                    <div class="process-step glass" data-step="02">
                         <div class="step-number">2</div>
                         <div class="step-content">
                             <h3>Návrh a strategie</h3>
@@ -189,14 +214,14 @@
                                 potřebujete.</p>
                         </div>
                     </div>
-                    <div class="process-step glass">
+                    <div class="process-step glass" data-step="03">
                         <div class="step-number">3</div>
                         <div class="step-content">
                             <h3>Tvorba a ladění</h3>
                             <p>Stavíme web, propojujeme mailing a nastavujeme Meta reklamu. Prostě to odsejpá.</p>
                         </div>
                     </div>
-                    <div class="process-step glass">
+                    <div class="process-step glass" data-step="04">
                         <div class="step-number">4</div>
                         <div class="step-content">
                             <h3>Předání a nekončíme</h3>
